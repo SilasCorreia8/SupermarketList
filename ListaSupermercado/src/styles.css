@@ -1,0 +1,41 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: rgba(249, 252, 216, 0.76);
+}
+
+th {
+    background-color: white;
+}
+
+.nomeProduto, .quantidadeProduto {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.363);
+    border: 1;
+    outline: 0;
+    padding: 2px;
+    border-radius: 15px;
+}
+
+.principal {
+    padding: 50px;
+}
+
+
+
+@media screen and (max-width: 1020px) {
+    
+    .row {
+        flex-direction: column;
+    }
+
+    .nomeProduto, .quantidadeProduto {
+        width: 100%;   
+    }
+
+    .principal {
+        padding: 10px;
+    }
+
+}
